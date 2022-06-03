@@ -1,5 +1,9 @@
 import React from "react";
+import styled from "styled-components";
 
+const Caixa=styled.div`
+border: 1px solid grey;
+`
 
  function Card(props){
     const titulo="Título do vídeo";
@@ -9,11 +13,12 @@ import React from "react";
     }
     
     return(
-        <div className={props.classNameCard} onclick={reproduzVideo}>
+        <Caixa className={props.classNameCard} onClick={reproduzVideo}>
         <img src={props.srcCard} alt=""/>
-        <h4>{titulo}</h4>
         <button> Play</button>
-    </div>
+        <h4>{titulo}</h4>
+
+    </Caixa>
     )
 };
 
