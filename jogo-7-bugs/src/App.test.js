@@ -22,3 +22,16 @@ test("Teste 2", () => {
     })
   );
 });
+
+test("Carrinho vazio não permite finalizar compra", () => {
+  render(<App />);
+  const itensCarrinho= screen.findAllByText("Carrinho Vazio")
+
+  userEvent.click(
+    screen.getByRole("button", {
+      name: /finalizar compra/i
+    })
+
+  expected()
+  );
+});
