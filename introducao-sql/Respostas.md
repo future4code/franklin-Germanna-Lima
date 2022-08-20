@@ -68,17 +68,17 @@ O nome do campo é name
 SELECT id, name from Actor WHERE id = "002"
 
 ### Exercício 4
-A)
-B)
-C)
-D)
-E)
-### Exercício 5
-A)
-B)
-C)
-D)
-E)
+A)Permite realizar mais de uma condicional para verifficar os dados na tabela
+
+B)SELECT * FROM Actor
+WHERE (name NOT LIKE "A%") AND salary > 350000;
+
+C)SELECT * FROM Actor
+WHERE (name LIKE "%G%" or name LIKE "%g%");
+
+D)SELECT * FROM Actor
+WHERE (name LIKE "%G%" or name LIKE "%g%") AND salary between 350000 and 900000 ;
+
 ### Exercício 6
 A)
 B)
