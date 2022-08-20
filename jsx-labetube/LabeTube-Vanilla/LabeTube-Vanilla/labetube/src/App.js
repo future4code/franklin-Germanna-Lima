@@ -16,7 +16,7 @@ function App() {
   
   return (
    
-   <div class="tela-inteira">
+   <div className="tela-inteira">
         <header>
             <Red>Lab Tube</Red>
             <input className="campo-busca" type="text" placeholder="Pesquisar" id="campoDeBusca"/>
@@ -25,25 +25,25 @@ function App() {
         <main>
             <Rosa className="menu-vertical">
                 <ul>
-                   <ItemMenu menu={'Início'}></ItemMenu>
-                   <ItemMenu menu={'Em alta'}></ItemMenu>
-                   <ItemMenu menu={'Inscrições'}></ItemMenu>
+                   <ItemMenu menu={'Início'}/>
+                   <ItemMenu menu={'Em alta'}/>
+                   <ItemMenu menu={'Inscrições'}/>
                    <hr/>
-                   <ItemMenu menu={'Originais'}></ItemMenu>
-                   <ItemMenu menu={'Histórico'}></ItemMenu>
+                   <ItemMenu menu={'Originais'}/>
+                   <ItemMenu menu={'Histórico'}/>
 
                 </ul>
             </Rosa>
 
             <section className="painel-de-videos">
-               <Card classNameCard={"box-pagina-principal media1"} srcCard={"https://picsum.photos/400/400?a=1 "}></Card>
-               <Card classNameCard={"box-pagina-principal media2"} srcCard={"https://picsum.photos/400/400?a=2 "}></Card>
-               <Card classNameCard={"box-pagina-principal media3"} srcCard={"https://picsum.photos/400/400?a=3 "}></Card>
-               <Card classNameCard={"box-pagina-principal media4"} srcCard={"https://picsum.photos/400/400?a=4 "}></Card>
-               <Card classNameCard={"box-pagina-principal media5"} srcCard={"https://picsum.photos/400/400?a=5 "}></Card>
-               <Card classNameCard={"box-pagina-principal media6"} srcCard={"https://picsum.photos/400/400?a=6 "}></Card>
-               <Card classNameCard={"box-pagina-principal media7"} srcCard={"https://picsum.photos/400/400?a=7 "}></Card>
-               <Card classNameCard={"box-pagina-principal media8"} srcCard={"https://picsum.photos/400/400?a=8 "}></Card>
+               <Card classNameCard={"box-pagina-principal media1"} srcCard={"https://picsum.photos/400/400?a=1 "}/>
+               <Card classNameCard={"box-pagina-principal media2"} srcCard={"https://picsum.photos/400/400?a=2 "}/>
+               <Card classNameCard={"box-pagina-principal media3"} srcCard={"https://picsum.photos/400/400?a=3 "}/>
+               <Card classNameCard={"box-pagina-principal media4"} srcCard={"https://picsum.photos/400/400?a=4 "}/>
+               <Card classNameCard={"box-pagina-principal media5"} srcCard={"https://picsum.photos/400/400?a=5 "}/>
+               <Card classNameCard={"box-pagina-principal media6"} srcCard={"https://picsum.photos/400/400?a=6 "}/>
+               <Card classNameCard={"box-pagina-principal media7"} srcCard={"https://picsum.photos/400/400?a=7 "}/>
+               <Card classNameCard={"box-pagina-principal media8"} srcCard={"https://picsum.photos/400/400?a=8 "}/>
             </section>
         </main>
 

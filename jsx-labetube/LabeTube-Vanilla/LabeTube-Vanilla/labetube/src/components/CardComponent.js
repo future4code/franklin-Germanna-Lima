@@ -14,11 +14,11 @@ border: 1px solid grey;
     
     return(
         <Caixa className={props.classNameCard} onClick={reproduzVideo}>
-        <img src={props.srcCard} alt=""/>
-        <button> Play</button>
-        <h4>{titulo}</h4>
+            <img src={props.srcCard} alt=""/>
+            <button> Play</button>
+            <h4>{titulo}</h4>
 
-    </Caixa>
+         </Caixa>
     )
 };
 
