@@ -64,10 +64,27 @@ app.get("/users/:id", async (req: Request, res: Response) => {
 })
 // bata no http://localhost:3003/users/001 e veja o que acontece no terminal
 
+// Por name
+const searchActor =async (name:string) : Promise<any> => {
+    const result = await connection.raw(`
+        SELECT * FROM Actor WHERE name = '${name}'
+    `)
+    return result
+    
+}
 
-
-
-
+app.get("/users/:name", async (req: Request, res: Response) => {
+    try {
+      const name = req.params.name
+  
+      console.log(await searchActor(name))
+  
+      res.end()
+    } catch (error) {
+          console.log(error)
+      res.status(500).send("Unexpected error")
+    }
+  })
 
 
 
