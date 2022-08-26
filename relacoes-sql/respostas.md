@@ -1,7 +1,15 @@
-INSERT INTO Rating (id, comment, rate, movie_id) VALUES ( "001", "Muito bom", 7, "004" );
+## Execício 1
+A) ALTER TABLE Actor DROP COLUMN salary
+Irá apagar a coluna salary
 
-ALTER TABLE Movie DROP COLUMN rating;
+B) ALTER TABLE Actor CHANGE gender sex VARCHAR(6)
+Troca o nome da tabela e coloca o nome e o tipo (string de 6 caracteres)
 
-INSERT INTO MovieCast(movie_id, actor_id) VALUES( "004", "001" )
+C)
+D)
 
-SELECT m.id as movie_id, r.rate as rating FROM Movie m INNER JOIN Rating r ON m.id = r.movie_id;
+## Execício 2
+## Execício 3
+## Execício 4
+## Execício 5
+## Execício 6
