@@ -22,4 +22,6 @@ export const toQuina=(nav)=>{
 export const toTimeMania=(nav)=>{
     nav("/timemania")
 }
+
+
 //8

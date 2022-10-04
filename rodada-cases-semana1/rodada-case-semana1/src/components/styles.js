@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+export const Body = styled.body``
+
 export const ComponentsMain = styled.main`
     position: relative;
     display: flex;
@@ -66,6 +68,7 @@ export const ComponentsFooter = styled.footer`
         font-size: 1rem;
         font-weight: 400;
         margin-bottom: 0.25rem;
+        font-weight: bold;
 
     }
 
