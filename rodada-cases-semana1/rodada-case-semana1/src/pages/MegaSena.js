@@ -1,8 +1,8 @@
-import React from "react";
-import { useContext, useEffect } from "react";
-import { Game } from "../components/Game";
+import React from "react"
+import { useContext, useEffect } from "react"
+import { Game } from "../components/Game"
 import { ComponentsMain, ComponentsSection1, ComponentsSection2, ComponentsList, ComponentsTitle, ComponentsFooter } from "../components/styles"
-import { GlobalContext } from "../global/GlobalState";
+import { GlobalContext } from "../global/GlobalState"
 //import logo from "../assets/logo.png"(pegar)
 
 export default function MegaSena (){
@@ -14,7 +14,7 @@ export default function MegaSena (){
 
     useEffect(() => {
         const [idConcurso] = loteriasConcursos?.filter(
-            (loteria) => loteria.loteriaId ===0
+            (loteria) => loteria.loteriaId === 0
         )
         getConcurso(idConcurso?.concursoId)
     }, [])
@@ -28,7 +28,7 @@ export default function MegaSena (){
                 <Game/>
 
                 <ComponentsTitle>
-                    <img src={logo} alt="logo" width={50}/>
+                    {/* <img src={logo} alt="logo" width={50}/> */}
                     <span>MegaSena</span>
                 </ComponentsTitle>
 
@@ -42,7 +42,6 @@ export default function MegaSena (){
 
         </ComponentsMain>
     )
-
 }
 
 //12

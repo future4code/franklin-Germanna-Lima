@@ -1,8 +1,8 @@
-import React from "react";
-import { useContext, useEffect } from "react";
-import { Game } from "../components/Game";
+import React from "react"
+import { useContext, useEffect } from "react"
+import { Game } from "../components/Game"
 import { ComponentsMain, ComponentsSection1, ComponentsSection2, ComponentsList, ComponentsTitle, ComponentsFooter } from "../components/styles"
-import { GlobalContext } from "../global/GlobalState";
+import { GlobalContext } from "../global/GlobalState"
 //import logo from "../assets/logo.png"(pegar)
 
 export default function TimeMania (){
@@ -28,7 +28,7 @@ export default function TimeMania (){
                 <Game/>
 
                 <ComponentsTitle>
-                    <img src={logo} alt="logo" width={50}/>
+                    {/* <img src={logo} alt="logo" width={50}/> */}
                     <span>TimeMania</span>
                 </ComponentsTitle>
 
@@ -42,7 +42,6 @@ export default function TimeMania (){
 
         </ComponentsMain>
     )
-
 }
 
 //15

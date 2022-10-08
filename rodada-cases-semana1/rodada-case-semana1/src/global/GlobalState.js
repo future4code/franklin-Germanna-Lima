@@ -1,17 +1,17 @@
-import React from "react";
-import axios from "axios";
-import { createContext, useEffect, useState } from "react";
-import {colorCases} from "..utils/colorsCases.js";
+import React from "react"
+import axios from "axios"
+import { createContext, useEffect, useState } from "react"
+import { colorCase } from "../utils/colorCase"
 
-export const GlobalContext = createContext();
+export const GlobalContext = createContext()
 
-export default function GlobalState (props) {
+export function GlobalState (props) {
 
-    const[loterias, setLoterias]=useState([]);
-    const[concursos, setConcursos]=useState([]);
-    const[loteriasConcursos, setLoteriasConcursos]=useState([]);
-    const[loteriasSeleciondas, setLoteriasSelecionadas]=useState(["MegaSena"]);
-    const[caseColor, setCaseColor] = useState([colorCases.megasena]);
+    const[loterias, setLoterias]=useState([])
+    const[concursos, setConcursos]=useState([])
+    const[loteriasConcursos, setLoteriasConcursos]=useState([])
+    const[loteriasSeleciondas, setLoteriasSelecionadas]=useState(["MegaSena"])
+    const[caseColor, setCaseColor] = useState([colorCase.megasena])
 
     function getLoterias (){
         axios

@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import {ComponentsFooter} from "./styles"
 
 
@@ -9,6 +9,6 @@ import {ComponentsFooter} from "./styles"
             
             <p>{props.concursoId} - {props.data}</p>
         </ComponentsFooter>
-    );
+    )
 }
 //3
