@@ -27,32 +27,38 @@ export function Game (){
     })
 
     const sorteio = (i) => {
-        setLoteriasSelecionadas(i.target.value)
+        //setLoteriasSelecionadas(i.target.value)
         switch (i.target.value){
 
             case "mega-sena":
+                toMegaSena(navigate)
                 setColorPage(colorCase.megasena)
-                return toMegaSena(navigate)
+                return 
             
             case "quina":
+                toQuina(navigate)
                 setColorPage(colorCase.quina)
-                return toQuina(navigate)
+                return 
             
             case "lotofácil":
+                toLotofacil(navigate)
                 setColorPage(colorCase.lotofacil)
-                return toLotofacil(navigate)
+                return 
             
             case "lotomania":
+                toLotomania(navigate)
                 setColorPage(colorCase.lotomania)
-                return toLotomania(navigate)
+                return 
                 
             case "timemania":
+                toTimeMania(navigate)
                 setColorPage(colorCase.timemania)
-                return toTimeMania(navigate)
+                return 
 
             case "dia de sorte":
+                toDiaDeSorte(navigate)
                 setColorPage(colorCase.diadesorte)
-                return toDiaDeSorte(navigate)
+                return 
 
             default:
                 return toMegaSena(navigate)     

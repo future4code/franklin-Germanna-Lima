@@ -8,7 +8,7 @@ const ComponentsDiv = styled.div`
     justify-content: center;
 `
 
-export default function Error (){
+export function Error (){
     return(
         <ComponentsDiv>
             {/* <img width={600} src= {logo}/> */}

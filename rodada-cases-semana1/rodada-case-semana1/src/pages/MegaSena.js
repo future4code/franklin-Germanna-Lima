@@ -5,7 +5,7 @@ import { ComponentsMain, ComponentsSection1, ComponentsSection2, ComponentsList,
 import { GlobalContext } from "../global/GlobalState"
 //import logo from "../assets/logo.png"(pegar)
 
-export default function MegaSena (){
+export function MegaSena (){
     const context= useContext(GlobalContext)
 
     const {concurso, loteriasConcursos} = context.states
@@ -29,7 +29,8 @@ export default function MegaSena (){
 
                 <ComponentsTitle>
                     {/* <img src={logo} alt="logo" width={50}/> */}
-                    <span>MegaSena</span>
+                    <span>Esse é apenas um jogo ilustrativo. Não tem ligação com a Caixa Econômica Federal</span>
+                   <span>MegaSena</span>
                 </ComponentsTitle>
 
                 <ComponentsFooter concursoId={concurso.id} data={data}/>
@@ -37,7 +38,6 @@ export default function MegaSena (){
 
             <ComponentsSection2>
                 <ComponentsList>{valores}</ComponentsList>
-                <span>Esse é apenas um jogo ilustrativo. Não tem ligação com a Caixa Econômica Federal</span>
             </ComponentsSection2>
 
         </ComponentsMain>

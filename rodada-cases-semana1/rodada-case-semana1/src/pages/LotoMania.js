@@ -5,7 +5,7 @@ import { ComponentsMain, ComponentsSection1, ComponentsSection2, ComponentsList,
 import { GlobalContext } from "../global/GlobalState"
 //import logo from "../assets/logo.png"(pegar)
 
-export default function LotoMania (){
+export function LotoMania (){
     const context= useContext(GlobalContext)
 
     const {concurso, loteriasConcursos} = context.states
@@ -26,9 +26,10 @@ export default function LotoMania (){
         <ComponentsMain>
             <ComponentsSection1 style={{background: ColorCase, transition: "background 1s"}}>
                 <Game/>
-
+               
                 <ComponentsTitle>
                     {/* <img src={logo} alt="logo" width={50}/> */}
+                    <span>Esse é apenas um jogo ilustrativo. Não tem ligação com a Caixa Econômica Federal</span>
                     <span>LotoMania</span>
                 </ComponentsTitle>
 
@@ -37,7 +38,6 @@ export default function LotoMania (){
 
             <ComponentsSection2>
                 <ComponentsList>{valores}</ComponentsList>
-                <span>Esse é apenas um jogo ilustrativo. Não tem ligação com a Caixa Econômica Federal</span>
             </ComponentsSection2>
 
         </ComponentsMain>

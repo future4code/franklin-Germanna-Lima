@@ -5,7 +5,7 @@ import { ComponentsMain, ComponentsSection1, ComponentsSection2, ComponentsList,
 import { GlobalContext } from "../global/GlobalState"
 //import logo from "../assets/logo.png"(pegar)
 
-export default function DiaDeSorte (){
+export function DiaDeSorte (){
     const context= useContext(GlobalContext)
 
     const {concurso, loteriasConcursos} = context.states
@@ -29,6 +29,7 @@ export default function DiaDeSorte (){
 
                 <ComponentsTitle>
                     {/* <img src={logo} alt="logo" width={50}/> */}
+                    <span>Esse é apenas um jogo ilustrativo. Não tem ligação com a Caixa Econômica Federal</span>
                     <span>Dia De Sorte</span>
                 </ComponentsTitle>
 
@@ -37,7 +38,6 @@ export default function DiaDeSorte (){
 
             <ComponentsSection2>
                 <ComponentsList>{valores}</ComponentsList>
-                <span>Esse é apenas um jogo ilustrativo. Não tem ligação com a Caixa Econômica Federal</span>
             </ComponentsSection2>
 
         </ComponentsMain>
