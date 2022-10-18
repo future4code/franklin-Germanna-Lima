@@ -11,7 +11,7 @@ const ComponentsDiv = styled.div`
 export function Error (){
     return(
         <ComponentsDiv>
-            {/* <img width={600} src= {logo}/> */}
+          <h1>ERROR 4004</h1>
         </ComponentsDiv>
     )
 }

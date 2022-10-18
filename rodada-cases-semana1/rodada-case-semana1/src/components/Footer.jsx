@@ -6,7 +6,6 @@ import {ComponentsFooter} from "./styles"
     return(
         <ComponentsFooter>
             <p>Concurso</p>
-            
             <p>{props.concursoId} - {props.data}</p>
         </ComponentsFooter>
     )
