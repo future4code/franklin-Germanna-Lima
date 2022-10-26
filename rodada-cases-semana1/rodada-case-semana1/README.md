@@ -11,8 +11,12 @@
 * Axios
 * React-router-dom
 * Style-component
-* 
 
-## Link surge
+## Link Figma
+https://www.figma.com/file/H2qrYBCFMf4didYmxRwTxP/Brainn-Frontend-Challenge?node-id=1%3A2
 
 ## Api usada
+https://loteriascaixa-api.herokuapp.com/swagger-ui/#/Loterias/getResultsByLotteryUsingGET
+
+## Link surge
+clammy-beast.surge.sh

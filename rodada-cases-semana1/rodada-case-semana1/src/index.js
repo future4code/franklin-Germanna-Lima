@@ -1,7 +1,7 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 import { createGlobalStyle } from "styled-components"
-import App from "./App"
+import { App } from "./App"
 
 
 const PrincipalStyle = createGlobalStyle`
@@ -14,8 +14,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
     <React.StrictMode>
+        {/* só uma linha o principalStyle*/}
         <PrincipalStyle/>
-        <App></App>
+            <App/> 
     </React.StrictMode>
 )
 //1
