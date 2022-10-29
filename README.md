@@ -1,32 +1,16 @@
-Boas-vindas!
+# Case Projeto FrontEnd - Desaafio Promobit - Germanna Oliveira - Labenu
 
-Esse repositório vai acompanhar vocês até o final do curso, para mantermos a organização, sugerimos que vocês sigam a seguinte estrutura:
+## Link surge:
+* https://germanna-oliveira-tmdb.surge.sh/
 
-```
-.
-├── modulo1
-│   ├── nome-da-aula
-│   ├── nome-da-aula
-│   └── nome-do-projeto
-|
-├── modulo2
-│   ├── nome-da-aula
-│   ├── nome-da-aula
-│   ├── nome-da-aula
-│   ├── nome-da-aula
-│   └── nome-do-projeto
-|
-├── modulo3
-│   ├── nome-da-aula
-│   ├── nome-da-aula
-│   ├── nome-da-aula
-│   ├── nome-da-aula
-│   ├── nome-da-aula
-│   ├── nome-da-aula
-│   ├── nome-da-aula
-│   └── nome-do-projeto
-|
-.
-```
+## Link Figma:
+* https://www.figma.com/file/rM7WPqhLY9ObnGzSCeWLxB/Teste-Front-End?node-id=16%3A1199
 
-Uma pasta para cada módulo, dentro delas uma pasta para cada dia de aula colocando o nome da aula e por fim uma pasta para cada projeto de fixação com o nome do projeto. Os nomes de cada aula e projeto estarão especificados nas instruções de git de cada exercício.
+## Tec usadas:
+* React
+* React-router-DOM
+* Style-component
+* Axios
+
+## API usada:
+* https://developers.themoviedb.org/3/getting-started/introduction
