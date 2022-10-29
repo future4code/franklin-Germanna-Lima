@@ -15,9 +15,7 @@ export const useRequest= (url, path, state) => {
         .catch((err) => {alert(err.message)});
     };
   
-    useEffect(() => {
-      getData()
-    }, [path])
+    useEffect(() => {getData()}, [path])
   
     return [data]
   };

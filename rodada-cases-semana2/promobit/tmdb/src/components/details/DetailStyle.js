@@ -6,25 +6,31 @@ export const DetailFilmeDiv = styled.div`
         height: 28rem;
         top: 3.5rem;
         background: #2D0C5E;
+@media screen and (max-width:360px) {
+    position: absolute;
+    height:103rem ;
+    top: -12rem;
+}
 
 `
 export const DivApresentacao = styled.div`
-
-    top: 128px;
+@media screen and (max-width:360px) {
+}
+    top: 8rem;
     position: absolute;
-    left: 528px;
+    left: 33rem;
     
     h2{
         position: absolute;
-        width: 300px;
-        height: 38px;
+        width: 46.12rem;
+        height: 2.375rem;
         /* left: 528px; */
         /* top: 128px; */
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 700;
-        font-size: 32px;
-        line-height: 38px;
+        font-size: 2rem;
+        line-height: 2.375rem;
         /* display: flex; */
         /* align-items: center; */
         /* letter-spacing: -0.005em; */
@@ -33,17 +39,18 @@ export const DivApresentacao = styled.div`
 `
 
 export const DuracaoH3 = styled.h3`
-    /* left: 3px; */
+ 
+
 
     position: absolute;
-        width: 684px;
-        height: 24px;
-        top: 45px;
+        width: 42.75rem;
+        height: 1.5rem;
+        top: 2.81rem;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 1.12rem;
+        line-height: 1.5rem;
         color: #FFFFFF;
 
         /* display: flex; */
@@ -51,69 +58,74 @@ export const DuracaoH3 = styled.h3`
 `
 export const DuracaoP = styled.p`
         position: absolute;
-        width: 684px;
-        height: 24px;
-        top: 45px;
+        width: 42.75rem;
+        height: 1.5rem;
+        top: 2.81rem;
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 1.12rem;
+        line-height: 1.5rem;
         color: #FFFFFF;
-        left: 80px;
+        left: 5rem;
 
 `
 
 export const AvaliacaoH3 = styled.h3`
     position: absolute;
-    width: 684px;
-    height: 24px;
-    top: 83px;
+    width: 42.75rem;
+    height: 1.5rem;
+    
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
     color: #FFFFFF;
 
+    
+    top: 5.18rem;
 `
 export const AvaliacaoP = styled.p`
     position: absolute;
-    width: 684px;
-    height: 24px;
-    top: 83px;
+    width: 42.75rem;
+    height: 1.5rem;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
     color: #FFFFFF;
-    left: 85px;
+    
+    top: 5.18rem;
+    left: 5.31rem;
 `
 export const SinopseH3 = styled.h3`
     position: absolute;
-    width: 684px;
-    height: 24px;
-    top: 120px;
+    width: 42.75rem;
+    height: 1.5rem;
+    top: 2.81rem;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
     color: #FFFFFF;
 
+    top: 7.5rem;
 `
 export const SinopseP = styled.p`
 position: absolute;
-    width: 684px;
-    height: 24px;
-    top: 151px;
+    width: 42.75rem;
+    height: 1.5rem;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
     color: #FFFFFF;
+    
+    top: 9.43rem;
 `
 
 
@@ -127,6 +139,17 @@ export const ImgDiv = styled.div`
     /* background: url(image); */
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     border-radius: 8px;
+    
+@media screen and (max-width:360px) {
+    position: absolute;
+    width: 139px;
+    height: 211px;
+    left: 86px;
+    top: 357px;
+    
+}
+
+    
 `
 export const Apresentacao = styled.div`
 

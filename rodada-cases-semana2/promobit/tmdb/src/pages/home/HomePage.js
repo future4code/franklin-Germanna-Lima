@@ -9,16 +9,15 @@ import { Filmeli, FiltraP, H1Home, HeaderGenre, Main } from "../home/HomeStyle"
 
 export const HomePage = () =>{
     const [genre, setGenre] = useState(null)
+    const page = "15"
 
-    const [data] =useRequest( API_URL,`genre/movie/list?${API_KEY}&language=pt`, [])
-    const [film] = useRequest (API_URL,`movie/popular?${API_KEY}&language=pt&page=&{page}`,[])
+    const [data] = useRequest( API_URL,`genre/movie/list?${API_KEY}&language=pt-br`, [])
+    const [film] = useRequest( API_URL,`movie/popular?${API_KEY}&language=pt-BR&page=&${page}`,[])
     
     const genres = data.genres
     
     const popular = film.results
 
-
-    const render = popular && popular.map((rated)=><Filme movie={rated} />)
 
     return(
         <Main>
@@ -40,9 +39,17 @@ export const HomePage = () =>{
                             </GenreLi>
                         )
                     })}</GenreUl>
+
                 </div>
             </HeaderGenre>
-            <Filmeli>{render}</Filmeli>
+            <Filmeli>
+            {popular? 
+            popular.filter((rated)=>{if(genre === null){return rated.id
+                                    } else { return rated.genre_ids.includes(genre)
+                   }}).map((rated)=> {return <Filme movie={rated}/>}):<p/>
+            }
+
+            </Filmeli>
         </Main>
     )
 }

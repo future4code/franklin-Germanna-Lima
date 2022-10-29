@@ -8,7 +8,9 @@ import { GlobalContext } from "./GlobalContext";
 export const GlobalState = (props) =>{
     return(
         <div>
-            <GlobalContext.Provider>{props.children}</GlobalContext.Provider>
+            <GlobalContext.Provider>
+                {props.children}
+            </GlobalContext.Provider>
         </div>
     )
 }

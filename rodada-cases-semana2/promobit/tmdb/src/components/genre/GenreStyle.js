@@ -10,11 +10,11 @@ export const GenreUl=styled.ul`
     align-content: center;
     justify-content: center;
     position: absolute;
-    width: 1146px;
-    height: 12px;
-    top:329px;
-    left: 202px;
-    height:40px;
+    width: 71,62rem;
+    height: 0.75rem;
+    top:20.56rem;
+    left: 12.65rem;
+    height:2.5rem;
     
     
     `
@@ -22,12 +22,12 @@ export const GenreLi = styled.li`
     display: flex;
     flex-direction: row;
     background-color: white;
-    border-radius: 4px;
+    border-radius:0.25rem;
 
 
-    width: 90px;
-    height: 40px;
-    margin: 12px;
+    width: 5.62rem;
+    height: 2.5rem;
+    margin: 0.31rem 0.625rem 0.31rem 0.625rem !important;
 
     div{
         display: flex;
@@ -39,7 +39,7 @@ export const GenreLi = styled.li`
     color: black;
     font-family: Roboto;
     font-size: 1rem;
-    line-height: 24px;
+    line-height: 1.5rem;
     text-align: center;
 
     }

@@ -21,6 +21,7 @@ export const DetailFilme=(props)=>{
     }
 
 
+
     const pathImg = URL_IMG
     const pathFilme = props.movie?.poster_path
     const pathTitulo = props.movie?.title
