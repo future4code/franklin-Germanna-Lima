@@ -14,3 +14,7 @@
 
 ## API usada:
 * https://developers.themoviedb.org/3/getting-started/introduction
+
+
+![image](https://user-images.githubusercontent.com/8453557/198770113-b3bf9a45-07fa-4c9d-9f21-29900556b0f1.png)
+![image](https://user-images.githubusercontent.com/8453557/198770281-b62ea646-fcd0-469b-afd0-b964c97048bd.png)
